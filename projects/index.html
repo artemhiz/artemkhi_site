@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>Проекты | Artemkhi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Mulish:ital,wght@0,1000;1,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../media/logo.jpeg" alt="Artemkhi logo" class="logo"></a>
+        <nav>
+            <a href="../about_me">Обо мне</a>
+            <a href="../projects" class="active">Проекты</a>
+            <a href="../services">Услуги</a>
+        </nav>
+        <div class="button_placer">
+            <a href="../contacts"><button class="contact">Контакты</button></a>
+        </div>
+    </header>
+    <main class="six">
+        <div class="line one">
+            <div class="block one">
+                <h1>Мои сайты</h1>
+                <p>и функциональные демо</p>
+                <div class="sitecard" id="istex">
+                    <h2>İstanbul Experience</h2>
+                    <p>Сайт-проект для гида в Стамбуле. Отображает полезную информацию о Стамбуле, интересных местах и услугах, предоставляемых услугах гида и его партнеров.</p>
+                    <p class="used">Использованы: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../../media/screenshots/istex.png" alt="Скриншот сайта İstanbul Experience">
+                    <button>К сайту</button>
+                </div>
+                <div class="sitecard" id="nbsite">
+                    <h2>Юрист Наталья Борисова</h2>
+                    <p>Сайт-проект для Натальи Борисовой (@borisova_jurist). Отображает инфомацию об оказываемых услугах и дополнительную юридическую информацию.</p>
+                    <p class="used">Использованы: <span>HTML</span>, <span>CSS</span></p>
+                    <img src="../media/screenshots/nbsite.png" alt="Скриншот сайта Натальи Борисовой">
+                    <button>К сайту</button>
+                </div>
+                <div class="sitecard" id="cookit">
+                    <h2>CooKit – сайт со списком покупок</h2>
+                    <p>Демо-версия сайта с возможностью поиска блюда по названию или ингредиенту. Нажмите на список ингредиентов, и он добавится в ваш список покупок в углу экрана.</p>
+                    <p class="used">Использованы: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../media/screenshots/cookit.png" alt="Скриншот сайта CooKit">
+                    <button>К сайту</button>
+                </div>
+                <div class="sitecard" id="weather">
+                    <h2>Погода</h2>
+                    <p>Демо-версия сайта с поиском погоды в любом городе мира. Главное – написать его название по-английски.</p>
+                    <p class="used">Использованы: <span>HTML</span>, <span>CSS</span>, <span>JS</span>, <span>OpenWeather API</span></p>
+                    <img src="../media/screenshots/weather.png" alt="Скриншот сайта с погодой">
+                    <button>К сайту</button>
+                </div>
+                <div class="sitecard" id="christmas">
+                    <h2>Рождество</h2>
+                    <p>Сайт с таймером до 25-го Декабря текущего года под прекрасное музыкальное сопровождение Мэрайи Кэри</p>
+                    <p class="used">Использованы: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../media/screenshots/christmas.png" alt="Скриншот сайта с таймером до Рождества">
+                    <button>К сайту</button>
+                </div>
+                <div class="sitecard" id="todolist">
+                    <h2>Сайт-список дел</h2>
+                    <p>Демо-версия сайта-списка дел, где можно добавлять дела, отмечать их, как завершенные, и удалять. Когда на экране нет дел, автоматически показывается руководство приложения.</p>
+                    <p class="used">Использованы: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../media/screenshots/todolist.png" alt="Скриншот сайта-списка дел">
+                    <button>К сайту</button>
+                </div>
+                <div class="sitecard" id="furniture">
+                    <h2>Галерея мебели</h2>
+                    <p>Демо-версия галереи из фото. Наведите курсор, чтобы увидеть развернутое изображение с дополнительной информацией</p>
+                    <p class="used">Использованы: <span>HTML</span>, <span>CSS</span></p>
+                    <img src="../media/screenshots/furniture.png" alt="Скриншот сайта-галереи">
+                    <button>К сайту</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="../about_me">Обо мне</a>
+            <a href="../projects">Проекты</a>
+            <a href="../services">Услуги</a>
+        </nav>
+        <div class="social">
+            <a onclick="openLangAlert()"><img src="../media/lang.png" alt="Язык (Language)"></a>
+            <a href="https://wa.me/79188590229" target="_blank"><img src="../media/social/wa.jpeg" alt="Иконка WhatsApp"></a>
+            <a href="https://vk.com/artemkhi" target="_blank"><img src="../media/social/vk.jpeg" alt="Иконка ВК"></a>
+            <a onclick="openMailAlert()"><img src="../media/social/email.jpeg" alt="Иконка эл.почты"></a>
+            <a href="https://instagram.com/artemhiz" target="_blank"><img src="../media/social/inst.jpeg" alt="Иконка Instagram" style="margin-right: 0"></a>
+        </div>
+    </footer>
+    <script src="../email.js"></script>
+    <script src="../language.js"></script>
+    <script src="../projects.js"></script>
+</body>
+</html>

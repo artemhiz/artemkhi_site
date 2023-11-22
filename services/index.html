@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>Услуги | Artemkhi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Mulish:ital,wght@0,1000;1,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../media/logo.jpeg" alt="Artemkhi logo" class="logo"></a>
+        <nav>
+            <a href="../about_me">Обо мне</a>
+            <a href="../projects">Проекты</a>
+            <a href="../services" class="active">Услуги</a>
+        </nav>
+        <div class="button_placer">
+            <a href="../contacts"><button class="contact">Контакты</button></a>
+        </div>
+    </header>
+    <main class="three">
+        <div class="line one">
+            <div class="block one">
+                <h1>Что я могу</h1>
+                <p>Ваш сайт будет неотразим, потому что я использую:</p>
+                <ul>
+                    <li>HTML - основной язык для программирования сайта. Именно через него строится основная структура элементов на сайте. </li>
+                    <li>CSS - язык программирования для стилизации сайта и элементов на нём. Через него обозначается цвет, размер, расположение и в целом стиль объекта, в мельчайших деталях.</li>
+                    <li>JavaScript - язык программирования, больше похожий на то, на чем работают приложения на компьютере или телефоне. С помощью этого языка программирования на сайте настраивается взаимодействие элементов между собой, например «когда я нажму эту кнопку, вон тот текст поменяет цвет, и напишет всё большими буквами».</li>
+                    <li>Семантическая вёрстка. Она не играет большой роли во внешнем виде сайта, зато делает его гораздо понятнее поисковой системе и пользователям с ограниченными возможностями. Это однозначно поможет вам в продвижении сайта в интернете.</li>
+                    <li>Делаю отзывчивый и адаптивный дизайны. Адаптивный дизайн сайта - это возможность сайта подстраиваться под экраны телефона, а отзывчивый сайт - это возможность делать это плавно, постепенно меняя размер элементов под конкретные размеры экрана и окна браузера.</li>
+                </ul>
+            </div>
+            <div class="block two">
+                <h1>Услуги</h1>
+                <div class="service">
+                    <div class="service_point">
+                        <h1>1.</h1>
+                        <h2>Сайт проект под ключ</h2>
+                        <p>(полный проект сайта с нуля)</p>
+                    </div>
+                    <div class="service_point">
+                        <h1>2.</h1>
+                        <h2>Изменение стилистики готового сайта</h2>
+                        <p>(изменение цветов/шрифтов/стиля на сайте)</p>
+                    </div>
+                    <div class="service_point" style="margin-bottom: 0">
+                        <h1>3.</h1>
+                        <h2>Редактирование готового сайта</h2>
+                        <p>(добавление новых элементов, исправление текста, добавление актуальной информации)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <nav>
+            <a href="../about_me">Обо мне</a>
+            <a href="../projects">Проекты</a>
+            <a href="../services">Услуги</a>
+        </nav>
+        <div class="social">
+            <a onclick="openLangAlert()"><img src="../media/lang.png" alt="Язык (Language)"></a>
+            <a href="https://wa.me/79188590229" target="_blank"><img src="../media/social/wa.jpeg" alt="Иконка WhatsApp"></a>
+            <a href="https://vk.com/artemkhi" target="_blank"><img src="../media/social/vk.jpeg" alt="Иконка ВК"></a>
+            <a onclick="openMailAlert()"><img src="../media/social/email.jpeg" alt="Иконка эл.почты"></a>
+            <a href="https://instagram.com/artemhiz" target="_blank"><img src="../media/social/inst.jpeg" alt="Иконка Instagram" style="margin-right: 0"></a>
+        </div>
+    </footer>
+    <script src="../email.js"></script>
+    <script src="../language.js"></script>
+</body>
+</html>

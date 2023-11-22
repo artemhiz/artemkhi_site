@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>Contacts | Artemkhi</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Mulish:ital,wght@0,1000;1,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../../media/logo.jpeg" alt="Artemkhi logo" class="logo"></a>
+        <nav>
+            <a href="../about_me">About me</a>
+            <a href="../projects">Projects</a>
+            <a href="../services">Services</a>
+        </nav>
+        <div class="button_placer">
+            <a href="../contacts"><button class="contact">Contacts</button></a>
+        </div>
+    </header>
+    <main class="five">
+        <div class="line one">
+            <div class="block one">
+                <h1>Contacts</h1>
+                <div class="contact_list">
+                    <div class="contact_point" onclick="window.open('https://vk.com/artemkhi', '_blank')">
+                        <img src="../../media/social/vk.jpeg" alt="VK icon">
+                        <p>artemkhi</p>
+                    </div>
+                    <div class="contact_point" onclick="window.open('https://wa.me/79188590229', '_blank')">
+                        <img src="../../media/social/wa.jpeg" alt="WhatsApp icon">
+                        <p>+7 (918) 859-02-29</p>
+                    </div>
+                    <div class="contact_point" onclick="window.open('https://t.me/artemkhi', '_blank')">
+                        <img src="../../media/social/telegram.png" alt="Telegram icon">
+                        <p>artemkhi</p>
+                    </div>
+                    <div class="contact_point" onclick="openMailAlert()">
+                        <div class="placer" style="flex-grow: 1; display: flex; align-items: center">
+                            <img src="../../media/social/email.jpeg" alt="Email icon">
+                        </div>
+                        <p>artemhiz@icloud.com</p>
+                    </div>
+                    <div class="contact_point" onclick="window.open('https://instagram.com/artemhiz', '_blank')">
+                        <img src="../../media/social/inst.jpeg" alt="Instagram icon">
+                        <p>artemhiz</p>
+                    </div>
+                </div>
+                <h2>CALL ME</h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="../about_me">About me</a>
+            <a href="../projects">Projects</a>
+            <a href="../services">Services</a>
+        </nav>
+        <div class="social">
+            <a onclick="openLangAlert()"><img src="../../media/lang.png" alt="Language"></a>
+            <a href="https://wa.me/79188590229" target="_blank"><img src="../../media/social/wa.jpeg" alt="WhatsApp icon"></a>
+            <a href="https://vk.com/artemkhi" target="_blank"><img src="../../media/social/vk.jpeg" alt="VK icon"></a>
+            <a onclick="openMailAlert()"><img src="../../media/social/email.jpeg" alt="Email icon"></a>
+            <a href="https://instagram.com/artemhiz" target="_blank"><img src="../../media/social/inst.jpeg" alt="Instagram icon" style="margin-right: 0"></a>
+        </div>
+    </footer>
+    <script src="../email.js"></script>
+    <script src="../language.js"></script>
+</body>
+</html>

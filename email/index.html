@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>Email | Artemkhi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Mulish:ital,wght@0,1000;1,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../media/logo.jpeg" alt="Artemkhi logo" class="logo"></a>
+        <nav>
+            <a href="../about_me">Обо мне</a>
+            <a href="../projects">Проекты</a>
+            <a href="../services">Услуги</a>
+        </nav>
+        <div class="button_placer">
+            <a href="../contacts"><button class="contact">Контакты</button></a>
+        </div>
+    </header>
+    <main class="eight">
+        <div class="line one">
+            <div class="block one">
+                <h1>Email</h1>
+                <p>кратко опишите то, что вы хотите, и я обязательно с вами свяжусь</p>
+                <div class="formholder">
+                    <form
+                    action="https://formspree.io/f/xknadpod"
+                    method="POST"
+                    >
+                        <label>
+                            Ваш email: 
+                            <input type="email" name="email" required>
+                        </label><br>
+                        <label>
+                            Я хочу
+                            <textarea name="message" rows="1"></textarea>
+                        </label><br>
+                        <label>
+                            Ваше сообщение:
+                            <textarea name="message" rows="5" cols="33"></textarea>
+                        </label><br>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="../about_me">Обо мне</a>
+            <a href="../projects">Проекты</a>
+            <a href="../services">Услуги</a>
+        </nav>
+        <div class="social">
+            <a onclick="openLangAlert()"><img src="../media/lang.png" alt="Язык (Language)"></a>
+            <a href="https://wa.me/79188590229" target="_blank"><img src="../media/social/wa.jpeg" alt="Иконка WhatsApp"></a>
+            <a href="https://vk.com/artemkhi" target="_blank"><img src="../media/social/vk.jpeg" alt="Иконка ВК"></a>
+            <a onclick="openMailAlert()"><img src="../media/social/email.jpeg" alt="Иконка эл.почты"></a>
+            <a href="https://instagram.com/artemhiz" target="_blank"><img src="../media/social/inst.jpeg" alt="Иконка Instagram" style="margin-right: 0"></a>
+        </div>
+    </footer>
+    <script src="../email.js"></script>
+    <script src="../language.js"></script>
+</body>
+</html>

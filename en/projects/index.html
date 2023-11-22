@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>Projects | Artemkhi</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Mulish:ital,wght@0,1000;1,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../../media/logo.jpeg" alt="Artemkhi logo" class="logo"></a>
+        <nav>
+            <a href="../about_me">About me</a>
+            <a href="../projects" class="active">Projects</a>
+            <a href="../services">Services</a>
+        </nav>
+        <div class="button_placer">
+            <a href="../contacts"><button class="contact">Contacts</button></a>
+        </div>
+    </header>
+    <main class="six">
+        <div class="line one">
+            <div class="block one">
+                <h1>My sites</h1>
+                <p>and functional demos (in Russian only)</p>
+                <div class="sitecard" id="istex">
+                    <h2>İstanbul Experience</h2>
+                    <p>Site project for a guide in Istanbul. It shows helpful information about Istanbul, interesting places and services provided by this guide and their partners.</p>
+                    <p class="used">Used: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../../media/screenshots/istex.png" alt="İstanbul Experience's site screenshot">
+                    <button>Go</button>
+                </div>
+                <div class="sitecard" id="nbsite">
+                    <h2>Natalia Borisova the lawyer</h2>
+                    <p>Site project for Natalia Borisova (@borisova_jurist). It shows the information about services to make and some other legal information.</p>
+                    <p class="used">Used: <span>HTML</span>, <span>CSS</span></p>
+                    <img src="../../media/screenshots/nbsite.png" alt="Natalia Borisova's site screenshot">
+                    <button>Go</button>
+                </div>
+                <div class="sitecard" id="cookit">
+                    <h2>CooKit – site with a shopping list</h2>
+                    <p>Site's demo with the ability to search for dishes by their name or an ingredient. Click on ingredients' list, and everything will be added to your shopping list in the screen's corner.</p>
+                    <p class="used">Used: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../../media/screenshots/cookit.png" alt="CooKit site screenshot">
+                    <button>Go</button>
+                </div>
+                <div class="sitecard" id="weather">
+                    <h2>Weather</h2>
+                    <p>Site's demo with searching for weather of world's any city.</p>
+                    <p class="used">Used: <span>HTML</span>, <span>CSS</span>, <span>JS</span>, <span>OpenWeather API</span></p>
+                    <img src="../../media/screenshots/weather.png" alt="Weather site screenshot">
+                    <button>Go</button>
+                </div>
+                <div class="sitecard" id="christmas">
+                    <h2>Christmas</h2>
+                    <p>Site with a timer until December 25th of this year, with precious music by Mariah Carey in the background.</p>
+                    <p class="used">Used: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../../media/screenshots/christmas.png" alt="Christmas timer site screenshot">
+                    <button>Go</button>
+                </div>
+                <div class="sitecard" id="todolist">
+                    <h2>Todo list site</h2>
+                    <p>Site's demo of a todo list where you can mark todos as completed or delete them. When there are no todos you'll see a manual of the site.</p>
+                    <p class="used">Used: <span>HTML</span>, <span>CSS</span>, <span>JS</span></p>
+                    <img src="../../media/screenshots/todolist.png" alt="Todo list site screenshot">
+                    <button>Go</button>
+                </div>
+                <div class="sitecard" id="furniture">
+                    <h2>Furniture gallery</h2>
+                    <p>Site's demo of the photos' gallery. Hover the cursor to see the full picture with additional info.</p>
+                    <p class="used">Used: <span>HTML</span>, <span>CSS</span></p>
+                    <img src="../../media/screenshots/furniture.png" alt="Gallery site screenshot">
+                    <button>Go</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="../about_me">About me</a>
+            <a href="../projects">Projects</a>
+            <a href="../services">Services</a>
+        </nav>
+        <div class="social">
+            <a onclick="openLangAlert()"><img src="../../media/lang.png" alt="Language"></a>
+            <a href="https://wa.me/79188590229" target="_blank"><img src="../../media/social/wa.jpeg" alt="WhatsApp icon"></a>
+            <a href="https://vk.com/artemkhi" target="_blank"><img src="../../media/social/vk.jpeg" alt="VK icon"></a>
+            <a onclick="openMailAlert()"><img src="../../media/social/email.jpeg" alt="Email icon"></a>
+            <a href="https://instagram.com/artemhiz" target="_blank"><img src="../../media/social/inst.jpeg" alt="Instagram icon" style="margin-right: 0"></a>
+        </div>
+    </footer>
+    <script src="../email.js"></script>
+    <script src="../language.js"></script>
+    <script src="../projects.js"></script>
+</body>
+</html>
